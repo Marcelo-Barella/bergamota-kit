@@ -6,15 +6,19 @@
     "name": "Marcelo Barella"
   },
   "license": "MIT",
-  "repository": "https://github.com/<tbd>/bergamota-kit",
-  "homepage": "https://github.com/<tbd>/bergamota-kit",
+  "repository": "https://github.com/Marcelo-Barella/bergamota-kit",
+  "homepage": "https://github.com/Marcelo-Barella/bergamota-kit",
   "keywords": [
     "skills",
     "planning",
-    "orchestration",
+    "subagent",
+    "research",
     "debugging",
     "prompt-engineering",
-    "workflow"
+    "workflow",
+    "orchestration",
+    "uiux",
+    "npm"
   ],
   "logo": "assets/logo.svg"
 }

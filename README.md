@@ -20,7 +20,7 @@ A curated collection of skills for deliberate planning, rigorous debugging, and 
 Clone the repo and symlink it into Cursor's local plugins directory:
 
 ```bash
-git clone https://github.com/<tbd>/bergamota-kit.git
+git clone https://github.com/Marcelo-Barella/bergamota-kit.git
 ln -s "$(pwd)/bergamota-kit" ~/.cursor/plugins/local/bergamota-kit
 ```
 
@@ -48,4 +48,4 @@ MIT. See [LICENSE](./LICENSE).
 
 ## Author
 
-Marcelo Barella.
+Marcelo Barella (Bergamota).
