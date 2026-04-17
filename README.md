@@ -4,7 +4,7 @@ A curated collection of skills for deliberate planning, rigorous debugging, and 
 
 ## What's inside
 
-`bergamota-kit` bundles 11 skills the author uses daily to drive Cursor agents through planning, research, debugging, orchestration, and release work. Skills are loaded by Cursor on demand and invoked by the agent when the situation fits their trigger description.
+`bergamota-kit` bundles 10 skills the author uses daily to drive Cursor agents through planning, research, debugging, orchestration, and release work. Skills are loaded by Cursor on demand and invoked by the agent when the situation fits their trigger description.
 
 ## Install
 
@@ -24,7 +24,7 @@ git clone https://github.com/Marcelo-Barella/bergamota-kit.git
 ln -s "$(pwd)/bergamota-kit" ~/.cursor/plugins/local/bergamota-kit
 ```
 
-Then in Cursor run Command Palette → "Developer: Reload Window" and check Settings → Skills for the 11 entries below.
+Then in Cursor run Command Palette → "Developer: Reload Window" and check Settings → Skills for the 10 entries below.
 
 ## Skills catalog
 
@@ -35,7 +35,6 @@ Then in Cursor run Command Palette → "Developer: Reload Window" and check Sett
 | `prompt` | Designs, analyzes, and optimizes prompts for AI models, agentic systems, and automation pipelines. Use when creating prompts, refining prompt structure, optimizing AI interactions, designing agent personas, or improving prompt effectiveness. |
 | `light-prompt` | Converts raw user input into a tight, structured prompt capped at about 200 tokens to reduce model drift. Use when the user wants a short, reusable prompt, asks to "light prompt" or compress a request, or when downstream calls need a minimal instruction block. |
 | `unravel` | Build a deterministic end-to-end flow plan file for a user objective using the /unravel command. Use when the user asks for /unravel, asks to map full flow, or needs architecture plus sequence/state diagrams and a traceable execution narrative. |
-| `commit-changelog` | Analyze git commits since the last run across workspace repositories and produce a structured changelog page in Notion. Tracks the last execution timestamp in a Notion control page. Use when the user asks to document recent commits, generate a changelog, summarize recent work, or capture development progress. |
 | `orchestrator` | Orchestrates complex workflows by coordinating sequential phases and delegating to specialized subagents. Use when coordinating multi-phase workflows, task complexity assessment, or managing subagent coordination. |
 | `research` | Conducts thorough research and analysis of task requirements before implementation. Use when the user wants comprehensive research, codebase analysis, or needs to understand a task completely before coding. |
 | `uiux` | Professional UI/UX-focused agent specializing in modern interface design, user experience optimization, design system adherence, and accessibility standards. Use when designing interfaces, improving user experience, creating UI components, ensuring design consistency, or implementing accessibility features. |
