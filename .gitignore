@@ -5,3 +5,5 @@ node_modules/
 *.swp
 
 .cursor/plans/
+
+cursor-orch-output.json

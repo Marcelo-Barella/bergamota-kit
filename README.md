@@ -2,6 +2,10 @@
 
 A curated collection of skills for deliberate planning, rigorous debugging, and disciplined execution in Cursor agent workflows.
 
+## Design system (`bergamota-subscription-ui`)
+
+Workspace package `packages/bergamota-subscription-ui/` ships design tokens, a Tailwind CSS v3 preset, and Markdown docs for subscription-commerce UIs. See [packages/bergamota-subscription-ui/README.md](./packages/bergamota-subscription-ui/README.md) for dependency and Tailwind wiring.
+
 ## What's inside
 
 `bergamota-kit` bundles 10 skills the author uses daily to drive Cursor agents through planning, research, debugging, orchestration, and release work. Skills are loaded by Cursor on demand and invoked by the agent when the situation fits their trigger description.

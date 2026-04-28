@@ -1,0 +1,76 @@
+/*!
+  bergamota-subscription-ui — CSS custom properties (design tokens).
+  Import before app styles: @import "bergamota-subscription-ui/tokens.css";
+*/
+
+:root {
+  --ds-grid-unit: 8px;
+
+  --ds-cream-50: #fefdfb;
+  --ds-cream-100: #faf7f2;
+  --ds-cream-150: #f5efe6;
+  --ds-cream-200: #ede6d9;
+  --ds-cream-300: #d9d0c2;
+  --ds-cream-400: #b8aea0;
+
+  --ds-ink-950: #1c1814;
+  --ds-ink-800: #3d3834;
+  --ds-ink-600: #5c564f;
+  --ds-ink-500: #6f6860;
+  --ds-ink-400: #9a9288;
+  --ds-ink-200: #c9c4bc;
+  --ds-ink-100: #e8e6e2;
+
+  --ds-terracotta-50: #fdf6f4;
+  --ds-terracotta-100: #f9eae5;
+  --ds-terracotta-300: #e8a892;
+  --ds-terracotta-500: #c86244;
+  --ds-terracotta-700: #9a4228;
+  --ds-terracotta-900: #5f2615;
+  --ds-terracotta-on-accent: #fefdfb;
+
+  --ds-color-canvas: var(--ds-cream-100);
+  --ds-color-surface: var(--ds-cream-50);
+  --ds-color-surface-muted: var(--ds-cream-150);
+  --ds-color-border: var(--ds-ink-100);
+  --ds-color-border-strong: var(--ds-ink-200);
+  --ds-color-text: var(--ds-ink-950);
+  --ds-color-text-muted: var(--ds-ink-600);
+  --ds-color-text-subtle: var(--ds-ink-500);
+  --ds-color-accent: var(--ds-terracotta-500);
+  --ds-color-accent-hover: var(--ds-terracotta-700);
+  --ds-color-accent-soft: var(--ds-terracotta-100);
+  --ds-color-focus-ring: var(--ds-terracotta-500);
+
+  --ds-space-0: 0px;
+  --ds-space-1: 8px;
+  --ds-space-2: 16px;
+  --ds-space-3: 24px;
+  --ds-space-4: 32px;
+  --ds-space-5: 40px;
+  --ds-space-6: 48px;
+  --ds-space-7: 56px;
+  --ds-space-8: 64px;
+  --ds-space-9: 72px;
+  --ds-space-10: 80px;
+  --ds-space-11: 88px;
+  --ds-space-12: 96px;
+
+  --ds-font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --ds-font-sans: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --ds-text-display-xl-size: 2.5rem;
+  --ds-text-display-xl-leading: 1.1;
+  --ds-text-display-lg-size: 2rem;
+  --ds-text-display-lg-leading: 1.25;
+  --ds-text-display-md-size: 1.5rem;
+  --ds-text-display-md-leading: 1.33;
+  --ds-text-body-lg-size: 1.125rem;
+  --ds-text-body-lg-leading: 1.56;
+  --ds-text-body-md-size: 1rem;
+  --ds-text-body-md-leading: 1.5;
+  --ds-text-body-sm-size: 0.875rem;
+  --ds-text-body-sm-leading: 1.43;
+  --ds-text-label-size: 0.75rem;
+  --ds-text-label-leading: 1.33;
+}
