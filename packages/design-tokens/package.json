@@ -1,0 +1,27 @@
+{
+  "name": "@bergamota/design-tokens",
+  "version": "0.1.0",
+  "description": "Design tokens and Tailwind CSS v3+ preset for cream-base, terracotta-accent SaaS UIs",
+  "type": "module",
+  "main": "./tokens.mjs",
+  "exports": {
+    ".": "./tokens.mjs",
+    "./tokens": "./tokens.mjs",
+    "./preset": "./preset.mjs"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "keywords": [
+    "design-tokens",
+    "tailwindcss",
+    "preset",
+    "bergamota"
+  ],
+  "license": "MIT",
+  "files": [
+    "tokens.mjs",
+    "preset.mjs",
+    "README.md"
+  ]
+}
