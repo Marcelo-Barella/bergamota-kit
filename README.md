@@ -6,6 +6,10 @@ A curated collection of skills for deliberate planning, rigorous debugging, and 
 
 `bergamota-kit` bundles 10 skills the author uses daily to drive Cursor agents through planning, research, debugging, orchestration, and release work. Skills are loaded by Cursor on demand and invoked by the agent when the situation fits their trigger description.
 
+## Design foundation (`@bergamota/design-tokens`)
+
+Customer-facing SaaS design tokens (cream base, ink neutrals, single terracotta accent) with a Tailwind CSS v3+ preset live under [`packages/design-tokens`](./packages/design-tokens). Full tables, accent rules, and the 8px spacing grid are in [`docs/design-tokens.md`](./docs/design-tokens.md).
+
 ## Install
 
 ### From the Cursor Marketplace
