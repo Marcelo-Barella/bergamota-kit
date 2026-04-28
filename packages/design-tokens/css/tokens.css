@@ -1,0 +1,73 @@
+:root {
+  --color-cream-0: #fefdfb;
+  --color-cream-50: #faf7f2;
+  --color-cream-100: #f3ede4;
+  --color-cream-200: #e8dfd0;
+
+  --color-ink-900: #1c1916;
+  --color-ink-700: #3d3833;
+  --color-ink-500: #5c564e;
+  --color-ink-300: #8a8278;
+
+  --color-line-200: #e5ddd2;
+  --color-line-100: #f0ebe3;
+
+  --color-terracotta-600: #a84a32;
+  --color-terracotta-500: #c45c3f;
+  --color-terracotta-400: #d4785c;
+  --color-terracotta-focus: #c45c3f;
+
+  --color-surface-raised: #ffffff;
+  --color-overlay-scrim: rgb(28 25 22 / 0.45);
+
+  --space-0: 0;
+  --space-px: 1px;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 2.5rem;
+  --space-6: 3rem;
+  --space-7: 3.5rem;
+  --space-8: 4rem;
+  --space-9: 4.5rem;
+  --space-10: 5rem;
+  --space-12: 6rem;
+  --space-16: 8rem;
+  --space-20: 10rem;
+  --space-24: 12rem;
+
+  --radius-none: 0;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  --font-display: "Georgia", "Times New Roman", ui-serif, serif;
+  --font-body: ui-sans-serif, system-ui, sans-serif;
+
+  --text-display-xl-size: 3rem;
+  --text-display-xl-line: 1.1;
+  --text-display-xl-track: -0.02em;
+
+  --text-display-lg-size: 2.25rem;
+  --text-display-lg-line: 1.15;
+  --text-display-lg-track: -0.015em;
+
+  --text-title-size: 1.5rem;
+  --text-title-line: 1.25;
+  --text-title-track: -0.01em;
+
+  --text-body-size: 1rem;
+  --text-body-line: 1.6;
+  --text-body-track: 0;
+
+  --text-body-sm-size: 0.875rem;
+  --text-body-sm-line: 1.5;
+  --text-body-sm-track: 0.01em;
+
+  --text-label-size: 0.75rem;
+  --text-label-line: 1.4;
+  --text-label-track: 0.04em;
+}
