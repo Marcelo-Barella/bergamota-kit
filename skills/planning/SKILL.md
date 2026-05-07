@@ -90,8 +90,7 @@ description: Researches requirements when needed, then plans, organizes, and str
   <item id="11" name="Track">
     <condition>For complex or multi-session work.</condition>
     <actions>
-      <action>Maintain or reference `workflow_status.plan.md`.</action>
-      <action>Include current phase, status, and next actions.</action>
+      <action>Include current phase, status, and next actions where continuity matters (for example in the plan body).</action>
     </actions>
   </item>
   <item id="12" name="Todos Section">
@@ -216,7 +215,7 @@ description: Researches requirements when needed, then plans, organizes, and str
   - **Plan**: `.cursor/plans/{objective}.plan.md` with frontmatter phases/todos and body sections. Every todo carries delegation metadata (agent_type, parallel_group, depends_on, inputs, outputs).
   - **Delegation Map**: H2 section showing the parallel execution graph per phase.
   - **Todos Section**: ALWAYS add a Todos section listing all todos by phase in the body of the plan.
-  - **workflow_status.plan.md** (optional): For complex flows; current phase, status, next actions.
+  - **Next step (new chat only)**: After planning is complete, continuing work uses `skills/subagent-build-plan/SKILL.md`; start that skill in a **separate chat**, not this one.
 </deliverables>
 
 <interaction_style>
