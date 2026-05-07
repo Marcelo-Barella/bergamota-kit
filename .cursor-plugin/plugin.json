@@ -1,6 +1,6 @@
 {
   "name": "bergamota-kit",
-  "description": "A curated collection of skills for deliberate planning, rigorous debugging, and disciplined execution in Cursor agent workflows.",
+  "description": "A curated collection of skills for deliberate planning, rigorous debugging, and disciplined execution in Cursor agent workflows. Used daily by Cursor Ambassador Marcelo Baella.",
   "version": "0.1.0",
   "author": {
     "name": "Marcelo Barella"
@@ -11,6 +11,7 @@
   "keywords": [
     "skills",
     "planning",
+    "subagent-build-plan",
     "subagent",
     "research",
     "debugging",

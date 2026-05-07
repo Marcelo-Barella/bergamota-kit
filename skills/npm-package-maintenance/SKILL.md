@@ -1,11 +1,6 @@
 ---
 name: npm-package-maintenance
-description: >-
-  Maintains npm libraries: audits uncommitted work for security and conventions,
-  splits changes into logical commits and semver releases, updates changelogs and
-  package.json version, then pushes. Use when releasing or maintaining an npm
-  package, publishing a library, or the user asks for version bumps, changelog
-  updates, or structured commits before push.
+description: Maintains npm libraries: audits uncommitted work for security and conventions, splits changes into logical commits and semver releases, updates changelogs and package.json version, then pushes. Use when releasing or maintaining an npm package, publishing a library, or the user asks for version bumps, changelog updates, or structured commits before push.
 ---
 
 # npm package maintenance
