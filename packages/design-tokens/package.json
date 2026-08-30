@@ -1,0 +1,36 @@
+{
+  "name": "@bergamota-kit/design-tokens",
+  "version": "0.1.0",
+  "description": "Design tokens and Tailwind preset for cream-base D2C layouts with terracotta accent",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": [
+    "./css/tokens.css"
+  ],
+  "files": [
+    "css",
+    "src",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    },
+    "./tokens.css": "./css/tokens.css",
+    "./preset": "./src/preset.js"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.4.0"
+  },
+  "peerDependenciesMeta": {
+    "tailwindcss": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "design-tokens",
+    "tailwind",
+    "css-variables"
+  ]
+}
